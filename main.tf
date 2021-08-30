@@ -8,8 +8,6 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("gcp-tf-vault-ccbf411799b1.json")
-
   project = "gcp-tf-vault"
   region  = "europe-west1"
   zone    = "europe-west1-b"
