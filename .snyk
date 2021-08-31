@@ -1,0 +1,8 @@
+version: v1.19.0
+ignore:
+  SNYK-CC-GCP-284:
+    - '*':
+        reason: I need the instances use the default service account
+  SNYK-CC-TF-241:
+    - '*':
+        reason: I need to set a public ip address
